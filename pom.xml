@@ -98,20 +98,20 @@
 	    <snapshotRepository>  
 	        <id>user-snapshots</id>  
 	        <name>User Project SNAPSHOTS</name>  
-	        <url>http://192.168.0.163:9090/nexus/content/repositories/snapshots/</url>  
+	        <url>http://119.23.37.222:9090/nexus/content/repositories/snapshots/</url>  
 	    </snapshotRepository>  
       
 	    <repository>  
 	        <id>user-releases</id>  
 	        <name>User Project Release</name>  
-	        <url>http://192.168.0.163:9090/nexus/content/repositories/releases/</url>  
+	        <url>http://119.23.37.222:9090/nexus/content/repositories/releases/</url>  
 	    </repository>  
  	 </distributionManagement>  
  	 
  	 <repositories>
 		<repository>
 		<id>public</id>
-		<url>http://192.168.0.163:9090/nexus/content/groups/public/</url>
+		<url>http://119.23.37.222:9090/nexus/content/groups/public/</url>
 		</repository>
 	</repositories>
 
